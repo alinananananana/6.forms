@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    background-color: rgb(229, 236, 248);
+}
+
+.container{
+    max-width: 43%;
+    margin: auto;
+    padding: 60px 0;
+}
+
+p{
+    font-family: Tahoma;
+    text-align: center;
+}
+
+.first{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type=text]{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px 8px;
+    border:  solid 1px rgb(172, 172, 172);
+    border-radius: 3px;
+}
+
+.birthday{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+    font-weight: bold;
+    color: rgb(172, 172, 172);
+}
+
+.second-block{
+    max-width: 300px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+select{
+    padding: 8px 10px;
+    border:  solid 1px rgb(172, 172, 172);
+    border-radius: 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(../images/down-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: 90%;
+}
+
+.side{
+    width: 86px;
+}
+
+.center{
+    width: 120px;
+}
+
+.or::before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 1px;
+    background-color: rgb(167, 167, 167);
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.or::after{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 1px;
+    background-color: rgb(167, 167, 167);
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.or{
+    font-size: small;
+    color: rgb(107, 107, 107);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: rgb(4, 177, 4);
+    width: 100%;
+    padding: 7px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+a{
+    display: inline-block;
+    background-color: rgb(16, 16, 165);
+    width: 100%;
+    padding: 7px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    text-align: center;
+}
